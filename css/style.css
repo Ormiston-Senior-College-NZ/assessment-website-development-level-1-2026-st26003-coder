@@ -1,1 +1,303 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,3,0.01)),url(https://tse2.mm.bing.net/th/id/OIP.APydrFVU73vU4fYcGUv1UgHaFS?pid=Api&P=0&h=180);
+    font-family: 'Pixelify Sans', sans-serif;
+}
 
+html {
+    cursor: url('/image/steve.png'), default;
+}
+img:hover {
+    cursor: url('/image/Minecraft\ Movie\ Steve\ &\ Pickaxe\ Animated--cursor--SweezyCursors.png'), pointer;
+}
+ul {
+background-image: url(https://tse2.mm.bing.net/th/id/OIP.if-Ul8S2yZFORcpKKnSB1gHaEo?pid=Api&P=0&h=180);
+display: flex;
+ box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(red, green, blue)
+}
+ul li {
+    border-right: #f9f9f9;
+    transition-duration: 2s;
+}
+ul li:last-child {
+    border: none;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    border: none;
+}
+ul li a:hover {
+     background-image: url(https://tse3.mm.bing.net/th/id/OIP.tkURKAT4jhU7mXTzlC4NbAHaEK?pid=Api&P=0&h=180)
+
+ }
+ul li a:hover {
+    transition-duration: 2s;
+}
+ul li a.active {
+    transition-duration: 2s;
+    background-image: url(https://fontmeme.com/temporary/a5ad76f5ac1b506a3ed851af707af981.png);
+}
+.information {
+    transition: 10s;
+    padding-left: 20px;
+}
+.home {
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+    width: 70px;
+    height: 35px
+}
+.truehome {
+    transform: translateX(20px);
+    opacity: 0.7;
+}
+.information ul li:hover {
+    visibility: hidden;
+
+}
+.container {
+    display: flex;
+}
+.background {
+    image-resolution: from-image;
+    image-resolution: 1000dpi;
+    margin-top: 10px;
+}
+.obsidian {
+    display: inline-block;
+    width: 570px;
+    padding-left: 64px;
+     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+.image-with-text-container {
+    position: relative;
+    display: inline-block;
+}
+.image-with-text-container img.obsidian {
+    display: block;
+}
+.image-with-text-container .image-text {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.image-text {
+    width: 100%;
+}
+.smallp {
+    font-size: 24px;
+}
+.smallerp {
+    font-size: 24px;
+}
+.Minecraft {
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.pvwFhiaq0CiNhVTo_h_0_gHaEK?pid=Api&P=0&h=180);
+   padding: 20px 378px 15px 400px;
+    max-width: 565px;
+} 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    max-height: 500px;
+    height: 350px;
+}
+.poem {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 1;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+.iron {
+    position: relative;
+    z-index: -1;
+    width: 640px;
+}
+.truehome {
+    margin-top: 12px;
+}
+.halloween-background {
+    position: absolute;
+    z-index: -1;
+    width: 1335px;
+    height: 500px;
+    opacity: 0.8;
+}
+.halloween {
+    position: absolute;
+z-index: 1;
+ padding-left: 240px;
+ width: 875px;
+ height: 500px;
+}
+.info {
+    position: absolute;
+    z-index: 1;
+    color: orangered;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 20px;
+    transform: translateY(120px);
+    font-weight: 600;
+}
+.themes {
+    position: absolute;
+    transform: translateY(140px);
+    z-index: 1;
+    font-weight: 550;
+    color: orangered;
+    font-size: 44px;
+    text-align: center;
+    padding-left: 1120px
+}
+.choice {
+    transform: translateY(502px);
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.pvwFhiaq0CiNhVTo_h_0_gHaEK?pid=Api&P=0&h=180);
+    padding: 30px 170px 17px 198px;
+}
+.elite {
+    position: absolute;
+    transform: translateY(-1px);
+    z-index: -1;
+    width: 1336px;
+    height: 680px;
+    filter:brightness(50%)
+}
+.bottom {
+    position: absolute;
+    z-index: 1;
+    width: 550px;
+    transform: translateY(270px);
+    padding-left: 390px;
+}
+.normal {
+    z-index: 1;
+    color: white;
+    transform: translateY(470px);
+    padding-left: 20px;
+    font-size: 70px;
+}
+.heart {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    transform: translateY(260px);
+    padding-left: 230px;
+}
+.hardcore-heart {
+    position: absolute;
+    z-index: 1;
+    width: 110px;
+    transform: translateX(1200px);
+    padding-top: 320px;
+}
+.hardcore {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding-left: 945px;
+    transform: translateY(285px);
+    font-size: 52px;
+}
+.spinner {
+    position: absolute;
+    z-index: 1;
+    width: 230px;
+    left: 37%;
+    margin-left: 225px;
+    top: 250%;
+}
+.spinner {
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    0% {transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.creative {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding-left: 470px;
+    transform: translateY(260px);
+    font-size: 65px;
+}
+.same {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    transform: translateY(400px);
+    font-size: 85px;
+    text-align: center;
+    padding-left: 20px;
+}
+.different {
+     position: absolute;
+    z-index: 1;
+    color: white;
+    transform: translateY(450px);
+    font-size: 70px;
+    text-align: center;
+    padding-left: 995px;
+}
+.majority {
+    z-index: 1;
+    color: white;
+    transform: translateY(745px);
+    font-size: 70px;
+    padding-left: 280px;
+    font-weight: 550;
+}
+.contact-info {
+    font-family: sans-serif;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    padding-left: 7px;
+    bottom: -1630px;
+}
+.black {
+    z-index: -1;
+    transform: translateY(680px);
+    width: 1336px;
+  height: 130px;
+  margin-bottom: 10px;
+}
+.discord {
+    padding-left: 315px;
+    transform: translateY(-34px);
+}
+.rights {
+z-index: 2;
+position: absolute;
+color: white;
+transform: translateY(627px);
+left: 570px;
+font-family: sans-serif;
+font-size: 15;
+}
