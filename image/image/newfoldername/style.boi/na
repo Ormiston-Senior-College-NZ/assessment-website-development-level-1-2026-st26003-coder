@@ -1,5 +1,0 @@
-mkdir image/newfoldername
-touch image/newfoldername/.gitkeep  # Create placeholder
-git add image/newfoldername/
-git commit -m "Add newfoldername folder"
-git push
