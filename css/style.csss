@@ -1,1 +1,293 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,3,0.01)),url(https://tse2.mm.bing.net/th/id/OIP.APydrFVU73vU4fYcGUv1UgHaFS?pid=Api&P=0&h=180);
+    text-align: center;
+    font-family: 'Pixelify Sans', 'sans-serif';
+}
+html {
+    cursor: url(/image/Minecraft\ Movie\ Steve\ &\ Pickaxe\ Animated--cursor--SweezyCursors.png), default;
+}
+img:hover {
+    cursor: url(/image/steve.png), pointer;
+}
+ul {
+    display: flex; 
+background-image: url(https://tse2.mm.bing.net/th/id/OIP.if-Ul8S2yZFORcpKKnSB1gHaEo?pid=Api&P=0&h=180);
+}
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(red, green, blue)
+}
+.information {
+    padding-top: 15px;
+    padding-left: 40px;
+    height: 55px;
+}
+ul li {
+    border-right: #f9f9f9;
+}
+ul li:last-child {
+    border: none;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    border: none;
+}
+.home {
+    transform: translateX(-23px);
+    width: 230px;
+}
+ul li a:hover {
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.tkURKAT4jhU7mXTzlC4NbAHaEK?pid=Api&P=0&h=180);
+}
+.what {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    font-size: 45px;
+    transform: translateX(740px);
+    font-weight: 500;
 
+}
+.wool {
+    display: inline;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(20px);
+         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+.information {
+    opacity: 0.7;
+}
+.dont {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+    top: 80px
+}
+.obsidian-I-guess {
+    z-index: -1;
+    width: 550px;
+    height: 200px;
+    float: left;
+}
+.youtube {
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    transform: translateX(-260px);
+    padding-top: 105px;
+}
+.background-beautiful {
+    position: absolute;
+    z-index: -1;
+    width: 1335px;
+    height: 830px;
+    filter: brightness(80%);
+    transform: translateX(-667px);
+}
+.sign {
+    transform: translateX(50px);
+    width: 550px;
+    padding-top: 130px
+}
+.HUMANS {
+    position: absolute;
+    z-index: 1;
+    padding-top: 120px;
+    text-align: center;
+    width: 500px;
+    font-size: 24px;
+    transform: translateX(750px);
+    font-weight: 400;
+}
+.iron {
+    position: absolute;
+    padding-top: 320px;
+    width: 500px;
+    height: 100px;
+    transform: translateX(-650px);
+}
+.rules {
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-495px);
+    padding-left: 83px;
+}
+.treaty {
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-1160px);
+    padding-top: 345px;
+    width: 390px;
+    height: 404px;
+}
+.wool-two {
+    position: absolute;
+    z-index: 0;
+    transform: translateY(430px);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+
+}
+.where {
+    position: absolute;
+    transform: translateY(410px);
+    padding-left: 790px;
+    font-size: 45px;
+    z-index: 1;
+    color: white
+}
+.first-blood {
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 90px;
+    transform: translateY(-370px);
+}
+.penalty-one {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    transform: translateY(-308px);
+    margin-left: 88px;
+    color: red;
+    font-weight: 520;
+}
+.second-blood {
+    position: absolute;
+    z-index: 1;
+    font-size: 19px;
+    transform: translateY(-280px);
+    padding-left: 80px;
+}
+.penalty-two {
+    color: red;
+    z-index: 1;
+    font-size: 17px;
+    transform: translateY(-225px);
+    background-color: white;
+    margin-left: 90px;
+    position: absolute;
+    font-weight: 520;
+}
+.third-blood {
+    position: absolute;
+    z-index: 1;
+    font-size: 19px;
+    transform: translateY(-193px);
+    padding-left: 110px;
+}
+.penalty-three {
+    position: absolute;
+    color: red;
+    background-color: white;
+    font-weight: 520;
+    font-size: 16px;
+    transform: translateY(-140px);
+    margin-left: 88px;
+}
+.fourth-blood {
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-110px);
+    padding-left: 70px;
+    font-size: 16.5px;
+    font-weight: 510;
+}
+.fifth-blood {
+    position: absolute;
+    z-index: 1;
+    font-size: 18px;
+    transform: translateY(-82px);
+    padding-left: 90px;
+}
+.sign-two {
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-460px);
+    padding-top: 550px;
+    width: 500px;
+}
+.when-you-go {
+    position: absolute;
+    font-size: 24px;
+    transform: translateY(-180px);
+    text-align: center;
+    width: 470px;
+    padding-left: 770px;
+    font-weight: 500;
+}
+.dark-fantasy {
+    width: 1336px;
+    transform: translateY(101px);
+    height: 600px;
+}
+.iron-block {
+    position: absolute;
+    transform: translateY(-390px);
+    padding-left: 10px;
+    height: 105px;
+    width: 620px;
+    filter: brightness(90%);
+}
+.extra {
+    position: absolute;
+    transform: translateY(-400px);
+    padding-left: 766px;
+    font-size: 38px;
+    font-weight: 510;
+}
+.cook {
+    position: absolute;
+    transform: translateY(-270px);
+    padding-left: 72px;
+    width: 520px;
+    height: 250px;
+}
+.informed {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    transform: translateY(-280px);
+    font-size: 25px;
+    width: 450px;
+    padding-left: 775px;
+}
+.the-founder {
+    position: absolute;
+    z-index: 0;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.if-Ul8S2yZFORcpKKnSB1gHaEo?pid=Api&P=0&h=180);
+    transform: translateX(-630px);
+    padding-top: 5px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    top: 970px
+}
+.real-founder {
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    transform: translateY(-390px);
+    left: 190px
+}
+.devy {
+    position: absolute;
+    z-index: 0;
+    transform: translateX(-510px);
+    padding-top: 20px;
+}
