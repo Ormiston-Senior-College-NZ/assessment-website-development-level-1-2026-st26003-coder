@@ -1,0 +1,137 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,3,0.01)),url(https://tse2.mm.bing.net/th/id/OIP.APydrFVU73vU4fYcGUv1UgHaFS?pid=Api&P=0&h=180);
+    font-family: 'Pixelify Sans';
+}
+html {
+    cursor: url('steve.png'), default;
+}
+img:hover {
+    cursor: url('Minecraft\ Movie\ Steve\ &\ Pickaxe\ Animated--cursor--SweezyCursors.png'), pointer;
+}
+ul {
+background-image: url(https://tse2.mm.bing.net/th/id/OIP.if-Ul8S2yZFORcpKKnSB1gHaEo?pid=Api&P=0&h=180);
+display: flex;
+}
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(red, green, blue)
+}
+ul li {
+    border-right: #f9f9f9;
+}
+ul li:last-child {
+    border: none;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    border: none;
+}
+ul li a:hover {
+transition-duration: 10s;
+ background-image: url(https://tse3.mm.bing.net/th/id/OIP.tkURKAT4jhU7mXTzlC4NbAHaEK?pid=Api&P=0&h=180)
+ }
+
+ul li a.active {
+    transition-duration: 2s;
+    background-image: url(https://fontmeme.com/temporary/a5ad76f5ac1b506a3ed851af707af981.png);
+}
+.information {
+    transition: 10s;
+    padding-left: 20px;
+}
+.home {
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+    width: 70px;
+    height: 35px;
+}
+
+.information ul li:hover {
+    visibility: hidden;
+
+}
+.background {
+    position: absolute;
+    width: 1335px;
+    max-width: 1335px;
+    height: 570px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.requirements {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 250px;
+    color: red;
+    background-color: white;
+    font-size: 33px;
+}
+.stone {
+      padding-left: 905px;
+      padding-top: 250px;
+      width: 400px;
+      height: 110px;
+    position: absolute
+  
+}
+.see {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    transform: translateX(930px);
+    padding-top: 225px;
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+.portal {
+    position: absolute;
+    z-index: 1;
+    margin-left: 550px;
+    transform: translateY(190px);
+    width: 260px;
+}
+.enter {
+    position: absolute;
+    z-index: 2; 
+    transform: translateX(300px);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.wool {
+    position: absolute;
+    margin-left: 270px;
+}
+.enter {
+    transform: translateY(-30px);
+    padding-left: 300px;
+}
+.arrow {
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    transform: rotate(135deg);
+    left: 635px;
+    top: 180px
+}
+.join {
+    transform: translateY(15px);
+    opacity: 0.7;
+    padding-left: 45px;
+}
